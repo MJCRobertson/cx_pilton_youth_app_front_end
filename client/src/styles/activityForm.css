@@ -1,0 +1,34 @@
+.new-activity-form {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checks{
+  display: inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+activity-table-labels {
+  display: inline-block;
+  float: left;
+  width: auto;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+label {
+  margin: 5px;
+}
+
+input {
+  margin: 5px;
+}
+
+textarea {
+  min-width: 450px;
+}

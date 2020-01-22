@@ -1,0 +1,150 @@
+#buttons {
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mainBtn {
+  font-family: 'Lato', sans-serif;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  border: 5px solid #572D87;
+  border-radius: 25px;
+  margin: 10px;
+  background-color: rgba(123, 172, 74, 0.5);
+}
+
+.mainBtn:hover {
+  background-color: rgba(123, 172, 74, 0.75);
+}
+
+.BtnH2{
+  font-size: 24px;
+  color: #572D87;
+}
+
+.BtnP{
+  font-size: 16px;
+  color: #572D87;
+}
+
+.details-button {
+  font-family: 'Lato', sans-serif;
+  background: #7bac4a;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+}
+.details-button:hover {
+  background: #62883b;
+}
+
+.siblingsBtn {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  background: #7bac4a;
+  border-radius: 14px;
+  border: 2px solid #572D87;
+  color: #FFFFFF;
+  padding: 4px 12px;
+  margin-bottom: 6px;
+}
+.siblingsBtn:hover {
+  background: #62883b;
+}
+
+.edit-button, .remove-restrictions-btn {
+  font-family: 'Lato', sans-serif;
+  background: #f6aa04;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+}
+.edit-button:hover, .remove-restrictions-btn:hover {
+  background: #dd9904;
+}
+
+.delete-button {
+  font-family: 'Lato', sans-serif;
+  background: #f84314;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+}
+.delete-button:hover {
+  background: #eb3607;
+}
+
+.saveForm, .printForm, .printRegister {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  background: #62883b;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+  padding: 10px;
+  margin: 10px;
+}
+.saveForm:hover, .printForm:hover {
+  background: #dd9904;
+}
+
+.printForm {
+  display: inline;
+}
+
+.newActivityBtn, .new-restrictions-btn {
+  height: 50px;
+  width: 175px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background: #7bac4a;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newActivityBtn:hover, .new-restrictions-btn:hover {
+  background: #dd9904;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#detailsbtn {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#editbtn {
+  margin-right: 10px;
+}
+
+.back-button{
+  width: 20%;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  background: #7bac4a;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+  margin-bottom: 500px;
+}

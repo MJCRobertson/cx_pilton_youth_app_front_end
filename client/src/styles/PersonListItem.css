@@ -1,0 +1,67 @@
+.icon {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border: none;
+  background: transparent;
+}
+
+button .icon {
+  border: none;
+  background: transparent;
+}
+
+.attendance {
+  display: inline-block;
+  height: 20px;
+  width: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+
+.icon {
+  position: center;
+  display:inline-block;
+}
+
+.icon .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* .icon .tooltiptext::after {
+  content:no-close-quote;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+} */
+
+/* .icon:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+} */
+.iconText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}

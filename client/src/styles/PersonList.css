@@ -1,0 +1,9 @@
+.people-table tr th {
+  padding-right: 30px;
+  line-height: 30px;
+  background-color: lightgrey;
+}
+
+table {
+  margin-left: 50px;
+}

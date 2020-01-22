@@ -1,0 +1,96 @@
+h1{
+  text-align: center;
+}
+
+.personName {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px solid #572D87;
+  border-radius: 25px;
+  background-color: rgba(123, 172, 74, 0.5);
+
+}
+
+.PersonDetail{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.detailSection{
+  /* border: 1px solid black;
+  padding: 10px;
+  width: 33%; */
+  font-family: 'Lato', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px solid #572D87;
+  border-radius: 25px;
+  margin: 10px;
+  background-color: rgba(123, 172, 74, 0.20);
+}
+
+.detailSection label{
+  display: inline;
+  color: green;
+  font-size: 16px;
+}
+
+.detailSection p{
+  display: inline;
+}
+
+.detailSection h2{
+  font-size: 18px;
+}
+
+.detailSection div{
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.redFields{
+  color: red;
+}
+
+.back-button{
+  width: 20%;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  background: #7bac4a;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+  margin-bottom: 500px;
+}
+
+.back-to-contact-button{
+  width: 20%;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  background: #7bac4a;
+  border-radius: 14px;
+  border: none;
+  color: #FFFFFF;
+  padding: 4px 12px;
+}

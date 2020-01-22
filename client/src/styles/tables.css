@@ -1,0 +1,71 @@
+
+table {
+  font-family: 'Lato', sans-serif;
+  border-collapse: collapse;
+  line-height: 30px;
+  max-width: none;
+  margin-top: 30px;
+}
+
+tr th {
+  padding: 0px 30px;
+}
+
+ th.left-align {
+  text-align: left;
+}
+
+ th {
+  background-color: #7bac4a;
+  color: #FFFFFF;
+}
+
+td.left-align {
+  text-align: left;
+  padding: 0px 0px 0px 30px ;
+}
+
+td.dateRev {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(odd){
+		background: #f0f3f8;
+	}
+
+.person-checkboxes{
+    display: inline-block;
+   }
+
+.rowHover:hover {
+  background-color: #bee6ac;
+  font-weight: bold;
+  font-size: 17.5px;
+  opacity: 0.9;
+  color: #582d87;
+}
+
+.rowHover2:hover {
+  background-color: #7bac4a;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0.9;
+  color: #582d87;
+  text-align: start
+}
+
+.activity-list-table {
+  width: auto;
+  margin-bottom: 50px;
+}
+
+/* .attendanceDatesRow {
+  /* margin: 100px; */
+  /* text-align: center; */
+/* } */

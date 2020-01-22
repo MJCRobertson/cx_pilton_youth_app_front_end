@@ -1,0 +1,61 @@
+@media print {
+    form {
+        width: 100%;
+        font-size: 8pt;
+    }
+    table {
+        width: 100%;
+        font-size: 20pt;
+    }
+    input[type=text] {
+        border: none;
+    }
+    input[type=date] {
+        border: none;
+    }
+    input[type=tel] {
+        border: none;
+    }
+    input[type=email] {
+        border: none;
+    }
+    .option {
+        border: none;
+    }
+    .icon .tooltiptext {
+      visibility: visible;
+    }
+    #doctorsSurgery {
+        border: none
+    }
+    #gender {
+        border: none
+    }
+    #community {
+        border: none
+    }
+    #school {
+        border: none
+    }
+    #name {
+        border: none
+    }
+    #year {
+        border: none
+    }
+    #ethnicity {
+        border: none
+    }
+
+    form:before {
+        content: "PYCP";
+        font-Size: 25pt;
+        font: bold;
+        text-align: center !important;
+    }
+
+    .printForm, .saveForm, #nav, .logo, .headerLogo, .filterPeople, .edit-button, .details-button, .Options{
+        display: none;
+    }
+
+}
